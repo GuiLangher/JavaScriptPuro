@@ -17,7 +17,20 @@
             console.log("O nome passado é: "+nome)
         }
 
-        testes2("Guilherme")
+        function qualquer(par){
+            if(par == 1){
+                return "1"
+            } else if (par > 1){
+                return "maior que 1"
+            } else {
+                return "Esse numero é estranho"
+            }
+            
+        }
+        //Cria uma função e logo em seguida ja a chama
+        (function(){
+            alert("Olá Mundo")
+        })();
         
 
 
